@@ -1,0 +1,5 @@
+#!/bin/bash
+clear
+echo "Started Building!"
+tsc --lib dom,es2020 --outFile script.js script.ts
+
